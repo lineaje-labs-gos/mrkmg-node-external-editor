@@ -34,7 +34,7 @@
   "dependencies": {
     "chardet": "^0.7.0",
     "iconv-lite": "^0.4.24",
-    "tmp": "^0.0.33"
+    "tmp": ">=0.2.7"
   },
   "engines": {
     "node": ">=4"
@@ -63,5 +63,11 @@
         "major"
       ]
     }
+  },
+  "overrides": {
+    "tmp": ">=0.2.7"
+  },
+  "resolutions": {
+    "tmp": ">=0.2.7"
   }
 }
